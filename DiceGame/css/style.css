@@ -1,11 +1,5 @@
 
 
-/*.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 */
 
 .active {    
@@ -98,7 +92,7 @@
 /* image */
 img {
     position: absolute;
-    z-index: 2 !important; /* position absolute and z-index with hierarchy than the previous attributes */
+    z-index: 2 !important; /* position absolute and z-index with hierarchy higher than the previous attributes */
     text-align: center;
     visibility: visible;
     margin-top: 100px;
@@ -151,17 +145,23 @@ img {
     font-size: 16px;
 }
 
-@media screen and (max-width:359px){
+@media screen and (max-width:420px){
     img {
-        width: 40%;
-        margin-left: 3px;
+        width: 39%;
+        margin-left: 15px;
+        margin-bottom: 3rem;
     }
-    
-    .box-container {
-        margin-left: 0;
+    .small1 {
+        margin-left: 0px;
         padding: 5px 15px 25px 15px;
         font-size: 10px;
     }
+    .small2 {
+        margin-left: 65px; 
+        
+        padding: 5px 15px 25px 15px;
+        font-size: 10px;
+    }    
 }
 
 @media screen and (max-width:940px) {
