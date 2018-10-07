@@ -1,13 +1,13 @@
 
 
-*/
+
 
 .active {    
     background-color: #E0E0E0 !important;
     color: black;
     font-size: 4rem;
     text-align: center;  
-    /*justify-content: center;  */
+   
 }
 .active > .box-container{
     margin-left: 232px;  
@@ -18,9 +18,6 @@
 
 }
 
-/*active > .player1-panel > .box-container {
-    margin-left: 200px;
-}*/
 
 /* PLAYERS INTERFACE */
 .player0-panel{
@@ -56,8 +53,7 @@
 }
 
 .player0-score {
-    /*padding: 100px;*/
-    /*position: relative;*/
+    
     margin-bottom: 100px;
     font-size: 2rem;
     margin-left: 375px;
@@ -70,12 +66,9 @@
     margin-left: 375px;
 }
 
-/*#score1 {
-    margin-left: 350px;
-} */
+
 
 .box-container {    
-   /* padding-left: 150px; */
     box-sizing: border-box;
     width: 150px;
     padding: 5px 25px 55px 25px;
@@ -145,23 +138,43 @@ img {
     font-size: 16px;
 }
 
-@media screen and (max-width:420px){
+@media screen and (max-width:460px){
     img {
         width: 39%;
-        margin-left: 15px;
+        left: 120px;
         margin-bottom: 3rem;
     }
     .small1 {
+        width: 50%;
         margin-left: 0px;
         padding: 5px 15px 25px 15px;
         font-size: 10px;
     }
     .small2 {
-        margin-left: 65px; 
-        
+        width: 50%;
+        margin-left: 75px;         
         padding: 5px 15px 25px 15px;
         font-size: 10px;
     }    
+    .btn-new {
+        background-color: #99bde4;
+        left: 15vw !important;       
+        padding: 7px 12px 5px;
+        font-size: 10px;
+    }
+    .btn-roll {
+        background-color: #99bde4;
+        left: 22vw !important;
+        padding: 7px 12px 5px;
+        font-size: 10px;        
+    }
+    
+    .btn-hold {
+        background-color: #99bde4;
+        left: 27vw !important;        
+        padding: 7px 12px 5px;
+        font-size: 10px;           
+    }
 }
 
 @media screen and (max-width:940px) {
@@ -169,23 +182,20 @@ img {
     .btn-new {
         left: 34vw;
          top: 80vh;
-         position: relative;
-         z-index: 3;
+         position: relative;         
      }
      
      .btn-roll {
          left: 37vw;
          top: 80vh;
-         position: relative;
-         z-index: 4;
+         
      }
      
      .btn-hold {
          left: 40vw;
          top:80vh;
          bottom: 10px;
-         position: relative;
-         z-index: 5;
+         
      }
 
 }
